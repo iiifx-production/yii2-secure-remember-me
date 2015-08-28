@@ -1,0 +1,36 @@
+{
+    "name": "iiifx-experimental/yii2-secure-remember-me",
+    "type": "extension",
+    "description": "Yii2 Secure RememberMe",
+    "keywords": [
+        "yii2",
+        "remember me",
+        "rememberme",
+        "secure",
+        "login"
+    ],
+    "homepage": "https://github.com/iiifx-experimental/yii2-secure-remember-me",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Vitaliy IIIFX Khomenko",
+            "email": "iiifx@yandex.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "yiisoft/yii2": ">=2.0.3",
+        "iiifx-production/lazy-init": "0.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "iiifx\\yii2\\SecureRememberMe\\": "source/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    }
+}
