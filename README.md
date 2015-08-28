@@ -76,7 +76,7 @@ $ php yii migrate --migrationPath=@vendor/iiifx-production/yii2-secure-remember-
     }
 ```
 
-И добавляем удаление токена при выходе([SiteController.php::actionLogout()](https://github.com/yiisoft/yii2-app-advanced/blob/master/frontend/controllers/SiteController.php#L104)):
+И добавляем удаление токена при выходе([SiteController::actionLogout()](https://github.com/yiisoft/yii2-app-advanced/blob/master/frontend/controllers/SiteController.php#L104)):
 
 ``` php
     /**
