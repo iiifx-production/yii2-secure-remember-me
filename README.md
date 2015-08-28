@@ -7,7 +7,7 @@
 Используя Composer:
 
 ``` bash
-$ php composer.phar require "iiifx-experimental/yii2-secure-remember-me:0.1.*"
+$ php composer.phar require "iiifx-production/yii2-secure-remember-me:1.*"
 ```
 
 ## Миграции
@@ -15,7 +15,7 @@ $ php composer.phar require "iiifx-experimental/yii2-secure-remember-me:0.1.*"
 Выполнить в консоли:
 
 ``` bash
-$ php yii migrate --migrationPath=@vendor/iiifx-experimental/yii2-secure-remember-me/source/migrations
+$ php yii migrate --migrationPath=@vendor/iiifx-production/yii2-secure-remember-me/source/migrations
 ```
 
 ## Настройка
@@ -46,7 +46,7 @@ $ php yii migrate --migrationPath=@vendor/iiifx-experimental/yii2-secure-remembe
 
 ## Использование
 
-Пример подключения расширения к **[Yii2 Advanced Template](https://github.com/yiisoft/yii2-app-advanced)**.
+№№Пример подключения расширения к **[Yii2 Advanced Template](https://github.com/yiisoft/yii2-app-advanced)**.
 
 Вносим изменения в логику входа [common/models/LoginForm::login()](https://github.com/yiisoft/yii2-app-advanced/blob/master/common/models/LoginForm.php#L56):
 

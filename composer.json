@@ -1,5 +1,5 @@
 {
-    "name": "iiifx-experimental/yii2-secure-remember-me",
+    "name": "iiifx-production/yii2-secure-remember-me",
     "type": "extension",
     "description": "Yii2 Secure RememberMe",
     "keywords": [
@@ -9,7 +9,7 @@
         "secure",
         "login"
     ],
-    "homepage": "https://github.com/iiifx-experimental/yii2-secure-remember-me",
+    "homepage": "https://github.com/iiifx-production/yii2-secure-remember-me",
     "license": "MIT License",
     "authors": [
         {
