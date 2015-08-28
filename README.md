@@ -46,9 +46,9 @@ $ php yii migrate --migrationPath=@vendor/iiifx-production/yii2-secure-remember-
 
 ## Использование
 
-№№Пример подключения расширения к **[Yii2 Advanced Template](https://github.com/yiisoft/yii2-app-advanced)**.
+### Пример подключения расширения к **[Yii2 Advanced Template](https://github.com/yiisoft/yii2-app-advanced)**.
 
-Вносим изменения в логику входа [common/models/LoginForm::login()](https://github.com/yiisoft/yii2-app-advanced/blob/master/common/models/LoginForm.php#L56):
+Вносим изменения в логику входа([LoginForm::login()](https://github.com/yiisoft/yii2-app-advanced/blob/master/common/models/LoginForm.php#L56)):
 
 ``` php
     /**
@@ -76,7 +76,7 @@ $ php yii migrate --migrationPath=@vendor/iiifx-production/yii2-secure-remember-
     }
 ```
 
-И добавляем удаление токена при выходе [frontend/controllers/SiteController.php::actionLogout()](https://github.com/yiisoft/yii2-app-advanced/blob/master/frontend/controllers/SiteController.php#L104):
+И добавляем удаление токена при выходе([SiteController.php::actionLogout()](https://github.com/yiisoft/yii2-app-advanced/blob/master/frontend/controllers/SiteController.php#L104)):
 
 ``` php
     /**
@@ -107,6 +107,9 @@ $ php yii migrate --migrationPath=@vendor/iiifx-production/yii2-secure-remember-
 ## Лицензия
 
 [![Software License][ico-license]](LICENSE.md)
+
+
+
 
 
 
