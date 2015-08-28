@@ -1,0 +1,11 @@
+# PhpStrom файлы проекта
+.idea
+
+# Зависимости Composer, состояние пакетов
+vendor
+composer.lock
+
+# Логи PHP_CodeCoverage
+code-coverage
+
+index.php
