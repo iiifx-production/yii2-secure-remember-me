@@ -46,7 +46,7 @@ $ php yii migrate --migrationPath=@vendor/iiifx-production/yii2-secure-remember-
 
 ## Использование
 
-№№Пример подключения расширения к **[Yii2 Advanced Template](https://github.com/yiisoft/yii2-app-advanced)**.
+### Пример подключения расширения к **[Yii2 Advanced Template](https://github.com/yiisoft/yii2-app-advanced)**.
 
 Вносим изменения в логику входа [common/models/LoginForm::login()](https://github.com/yiisoft/yii2-app-advanced/blob/master/common/models/LoginForm.php#L56):
 
