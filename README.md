@@ -7,7 +7,7 @@
 Используя Composer:
 
 ``` bash
-$ php composer.phar require "iiifx-production/yii2-secure-remember-me:1.*"
+$ composer require "iiifx-production/yii2-secure-remember-me"
 ```
 
 ## Миграции
