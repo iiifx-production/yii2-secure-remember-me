@@ -2,7 +2,6 @@
 
 namespace iiifx\yii2\SecureRememberMe\models;
 
-use Yii;
 use yii\db\ActiveRecord;
 
 /**
@@ -16,32 +15,32 @@ use yii\db\ActiveRecord;
 class RememberMe extends ActiveRecord
 {
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
-    public static function tableName ()
+    public static function tableName()
     {
         return '{{%remember_me}}';
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
-    public function rules ()
+    public function rules()
     {
         return [
-            [ [ 'selector' ], 'required' ],
-            [ [ 'user_id' ], 'integer' ],
-            [ [ 'date_expires' ], 'safe' ],
-            [ [ 'selector' ], 'string', 'max' => 32 ],
-            [ [ 'token_hash' ], 'string', 'max' => 128 ],
-            [ [ 'selector' ], 'unique' ],
+            [['selector'], 'required'],
+            [['user_id'], 'integer'],
+            [['date_expires'], 'safe'],
+            [['selector'], 'string', 'max' => 32],
+            [['token_hash'], 'string', 'max' => 128],
+            [['selector'], 'unique'],
         ];
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
-    public function attributeLabels ()
+    public function attributeLabels()
     {
         return [
             'selector' => 'Selector',
